@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="70.0" prefWidth="800.0" style="-fx-background-color: #807d7f;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="70.0" prefWidth="154.0" />
+            <Pane prefHeight="70.0" prefWidth="650.0">
+               <children>
+                  <TextField layoutX="81.0" layoutY="18.0" prefHeight="34.0" prefWidth="279.0" promptText="Search" />
+                  <Button contentDisplay="CENTER" layoutX="384.0" layoutY="18.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="44.0" textOverrun="CENTER_WORD_ELLIPSIS">
+                     <graphic>
+                        <ImageView fitHeight="26.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pictures/search--v1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </HBox>
+      <HBox layoutY="70.0" prefHeight="460.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="70.0">
+         <children>
+            <AnchorPane prefHeight="391.0" prefWidth="800.0">
+               <children>
+                  <Pane layoutX="287.0" prefHeight="380.0" prefWidth="240.0" style="-fx-border-color: #fc9595;" AnchorPane.topAnchor="5.0">
+                     <children>
+                        <Pane layoutX="1.0" layoutY="6.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="128.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="250.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="48.0" prefHeight="380.0" prefWidth="240.0" style="-fx-border-color: #fc9595;" AnchorPane.topAnchor="5.0">
+                     <children>
+                        <Pane layoutX="1.0" layoutY="6.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="128.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="250.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="526.0" prefHeight="380.0" prefWidth="240.0" style="-fx-border-color: #fc9595;" AnchorPane.topAnchor="5.0">
+                     <children>
+                        <Pane layoutX="1.0" layoutY="6.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="128.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                        <Pane layoutX="1.0" layoutY="250.0" prefHeight="123.0" prefWidth="239.0" style="-fx-border-color: #807d7f;">
+                           <children>
+                              <ImageView fitHeight="60.0" fitWidth="80.0" layoutX="24.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Pictures/Saved%20Pictures/yoona-girls-generation-asian-snsd-wallpaper.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Pane layoutX="132.0" layoutY="17.0" prefHeight="100.0" prefWidth="90.0" style="-fx-border-color: #7dffa2;">
+                                 <children>
+                                    <Text layoutX="32.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book" />
+                                    <Text layoutX="15.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" />
+                                    <Text layoutX="57.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" />
+                                    <Text layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail" />
+                                    <Text layoutX="57.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="60" />
+                                    <Button layoutX="8.0" layoutY="62.0" mnemonicParsing="false" text="Add to Cart" />
+                                 </children>
+                              </Pane>
+                           </children>
+                        </Pane>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
